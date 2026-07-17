@@ -827,7 +827,7 @@ svg { display: inline-block; }
 .footer__can-text { color: #d1d5db; font-size: 14px; font-weight: 600; }
 
 .footer__desc { color: #9ca3af; font-size: 12px; line-height: 1.7; margin-bottom: 20px; }
-.footer__tagline { font-size: 12px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; color: #0D9488; }
+.footer__tagline { font-size: 12px; text-transform: uppercase; letter-spacing: 0.20em; font-weight: 700; color: #0D9488; }
 
 .footer__socials { display: flex; gap: 12px; margin-top: 20px; }
 .footer__social-icon {
