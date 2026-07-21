@@ -15,7 +15,7 @@
     <div class="navbar__inner">
         <div class="navbar__brand">
             <div class="navbar__logo-group">
-                <div class="navbar__logo-badge"><svg class="icon-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div>
+                <div class="navbar__logo-badge"><img src="{{ asset('img/Icon.png') }}" alt="Logo Badge"></div>
                 <div class="navbar__logo-text"><span class="navbar__logo-title">BPS</span><span class="navbar__logo-sub">Provinsi Aceh</span></div>
             </div>
             <div class="navbar__divider"></div>
@@ -30,8 +30,8 @@
             <a href="/#berita" class="navbar__link">Berita</a>
         </div>
         <button class="navbar__burger" id="navbarBurger" aria-label="Toggle menu">
-            <span id="navbarBurgerIconOpen"><svg class="icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
-            <span id="navbarBurgerIconClose" style="display:none;"><svg class="icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></span>
+            <span id="navbarBurgerIconOpen"><img src="{{ asset('img/Menu.svg') }}" alt="Open Menu" class="icon-svg" width="20" height="20"></span>
+            <span id="navbarBurgerIconClose" style="display:none;"><img src="{{ asset('img/Close.svg') }}" alt="Close Menu" class="icon-svg" width="20" height="20"></span>
         </button>
     </div>
     <div class="navbar__mobile" id="navbarMobile">
@@ -106,7 +106,6 @@
             <p class="hero__float-sub" style="margin: 0; font-size: 12px; color: #64748b;">Program Kerja</p>
         </div>
     </div>
-    
 </div>
             </div>
         </div>
@@ -347,7 +346,15 @@
         </div>
         <div class="rad-card reveal" data-anim="fade-up" data-delay="0.4">
             <div class="rad-card__head">
-                <div class="rad-card__icon" style="background-color:#F0FDF4; color:#16A34A;"><svg class="icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
+                <div class="rad-card__icon" style="background-color:#F0FDF4; color:#16A34A;">
+                    <!-- Calendar + Check icon for JAZIRAH (schedule/integrity) -->
+                    <svg class="icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="16" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <polyline points="9 13 11.5 15.5 15 11"></polyline>
+                    </svg>
+                </div>
                 <div><h4 class="rad-card__title">JAZIRAH</h4><p class="rad-card__subtitle"><b>J</b>adwal k<b>A</b>wal <b>Z</b>ona <b>I</b>nteg<b>R</b>itas <b>A</b>kuntabel dan terara<b>H</b></p></div>
             </div>
             <p class="rad-card__desc">Forum internalisasi dan sosialisasi Pembangunan ZI.</p>
@@ -581,7 +588,7 @@
     <div class="container">
         <div class="footer__grid">
             <div>
-                <div class="footer__brand"><div class="footer__brand-icon"><svg class="icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg></div><div><p class="footer__brand-name">BPS Provinsi Aceh</p><p class="footer__brand-sub">Badan Pusat Statistik</p></div></div>
+                <div class="footer__brand"><div class="footer__brand-icon"><img src="{{ asset('img/Icon.png') }}" alt="Logo Badge"></div><div><p class="footer__brand-name">BPS Provinsi Aceh</p><p class="footer__brand-sub">Badan Pusat Statistik</p></div></div>
                 <div class="footer__akhlak">
                     <p class="footer__akhlak-title">BerAKHLAK</p>
                     <p class="footer__akhlak-desc">Berorientasi Pelayanan · Akuntabel · Kompeten · Harmonis · Loyal · Adaptif · Kolaboratif</p>

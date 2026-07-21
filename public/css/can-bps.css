@@ -166,9 +166,8 @@ svg { display: inline-block; }
 .navbar__brand { display: flex; align-items: center; gap: 12px; }
 .navbar__logo-group { display: flex; align-items: center; gap: 8px; }
 .navbar__logo-badge {
-    width: 32px; height: 32px;
+    width: 42px; height: 42px;
     border-radius: 8px;
-    background: #1E3A5F;
     display: flex; align-items: center; justify-content: center;
     color: #fff;
 }
@@ -810,7 +809,7 @@ svg { display: inline-block; }
 @media (min-width: 768px) { .footer__grid { grid-template-columns: repeat(3, 1fr); } }
 
 .footer__brand { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
-.footer__brand-icon { width: 40px; height: 40px; border-radius: 12px; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; }
+.footer__brand-icon { width: 40px; height: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
 .footer__brand-icon .icon-svg { width: 20px; height: 20px; }
 .footer__brand-name { color: #fff; font-weight: 700; font-size: 14px; }
 .footer__brand-sub { color: #9ca3af; font-size: 12px; }
